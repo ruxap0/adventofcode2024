@@ -2,7 +2,7 @@ list1 = []
 list2 = []
 answer = 0
 
-with open('textfile1.txt') as f:
+with open('day1/textfile1.txt') as f:
     for l in f.readlines():
         n1, n2 = l.strip().split('   ')
         list1.append(int(n1))
